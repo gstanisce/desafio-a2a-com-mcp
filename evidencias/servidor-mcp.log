@@ -1,0 +1,48 @@
+servidor MCP em http://127.0.0.1:7301/mcp
+StreamableHTTP session manager started
+mcp request method=tools/list id=bcadea992264 alvo=- traceparent=-
+mcp request method=tools/call id=c9046ffa2d45 alvo=listar_salas traceparent=-
+mcp request method=tools/call id=7636a53ad944 alvo=listar_salas traceparent=-
+mcp request method=tools/call id=92c96d195aeb alvo=listar_salas traceparent=-
+mcp request method=tools/call id=c89169a2c99c alvo=voar_delorean traceparent=-
+Tool 'voar_delorean' failed: 'Unknown tool: voar_delorean'
+mcp request method=resources/read id=6864a37fdd21 alvo=politica://uso traceparent=-
+mcp request method=resources/read id=86b6a007ccf3 alvo=politica://inexistente traceparent=-
+Resource 'politica://inexistente' failed: 'Unknown resource: politica://inexistente'
+mcp request method=tools/call id=945d2c544192 alvo=reservar_sala traceparent=-
+Tool 'reservar_sala' failed: 'Error executing tool reservar_sala: Sala inexistente: sala-delorean'
+mcp request method=tools/call id=c1f2e0a29c06 alvo=consultar_disponibilidade traceparent=-
+Tool 'consultar_disponibilidade' failed: 'Error executing tool consultar_disponibilidade: Fora da janela de uso: a politica permite reservas entre 08:00 e 20:00'
+mcp request method=tools/call id=8e5a7e83abe5 alvo=consultar_disponibilidade traceparent=-
+Tool 'consultar_disponibilidade' failed: 'Error executing tool consultar_disponibilidade: Duracao acima do limite: a politica permite no maximo 2 horas'
+mcp request method=tools/call id=737f5d822c94 alvo=consultar_disponibilidade traceparent=-
+Tool 'consultar_disponibilidade' failed: 'Error executing tool consultar_disponibilidade: Intervalo invalido: fim deve ser posterior a inicio'
+mcp request method=tools/call id=555b54fd2116 alvo=reservar_sala traceparent=00-ab812abadb32ad0e1156658683ffb537-66e1df0af70ac118-01
+mcp request method=tools/call id=6eb83b38048f alvo=reservar_sala traceparent=-
+mcp request method=tools/call id=13c14c46ead9 alvo=reservar_sala traceparent=-
+mcp request method=tools/call id=c8a5cbcd207a alvo=reservar_sala traceparent=-
+mcp request method=tools/call id=2c2046bae924 alvo=reservar_sala traceparent=-
+requestState rejected on tools/call: seal
+mcp request method=tools/call id=fa823f43c2d3 alvo=reservar_sala traceparent=-
+mcp request method=tools/call id=f45b26676bb6 alvo=reservar_sala traceparent=-
+mcp request method=tools/call id=64d03f2b8f4e alvo=reservar_sala traceparent=-
+requestState rejected on tools/call: request binding
+mcp request method=tools/call id=e3eee21637e6 alvo=reservar_sala traceparent=-
+mcp request method=tools/call id=fa2c5bf102e1 alvo=reservar_sala traceparent=-
+mcp request method=tools/call id=590be2b4e68f alvo=reservar_sala traceparent=-
+Tool 'reservar_sala' failed: 'Error executing tool reservar_sala: Sem alternativas disponiveis no intervalo'
+mcp request method=tools/list id=1 alvo=- traceparent=00-ab812abadb32ad0e1156658683ffb537-fd6d814fe6687b8f-01
+mcp request method=resources/read id=2 alvo=politica://uso traceparent=00-ab812abadb32ad0e1156658683ffb537-515cf628a3a0d7da-01
+mcp request method=tools/call id=3 alvo=reservar_sala traceparent=00-ab812abadb32ad0e1156658683ffb537-99142ef8d53cdc09-01
+mcp request method=tools/call id=4 alvo=reservar_sala traceparent=00-ab812abadb32ad0e1156658683ffb537-c28214b1f25da2df-01
+mcp request method=tools/call id=5 alvo=reservar_sala traceparent=00-ab812abadb32ad0e1156658683ffb537-9ee9fa99b57d131b-01
+mcp request method=tools/call id=6 alvo=reservar_sala traceparent=00-4350dee85ca177fd2594e64dda0faafa-cce0136b5bb32eff-01
+mcp request method=tools/call id=7 alvo=reservar_sala traceparent=00-4350dee85ca177fd2594e64dda0faafa-d983b50122cea854-01
+mcp request method=tools/call id=8 alvo=reservar_sala traceparent=00-cb875d987411c49f3b77bf882c7e746b-7d37b9e01588351b-01
+mcp request method=tools/call id=9 alvo=reservar_sala traceparent=00-2778584362547bd29d4bde12cd15c52c-cdf2c524c00771a1-01
+mcp request method=tools/call id=10 alvo=reservar_sala traceparent=00-cb875d987411c49f3b77bf882c7e746b-b9d758f048c8880a-01
+mcp request method=tools/call id=11 alvo=reservar_sala traceparent=00-2778584362547bd29d4bde12cd15c52c-af007d03900d981c-01
+mcp request method=tools/call id=12 alvo=reservar_sala traceparent=00-914897c91c786e577e17e28d46fe85e2-09f5ba0effc72278-01
+Tool 'reservar_sala' failed: 'Error executing tool reservar_sala: Sala inexistente: sala-delorean'
+mcp request method=tools/call id=13 alvo=reservar_sala traceparent=00-ddb97462698300fb1e8d8e3355cc5388-09e548a40938851b-01
+mcp request method=tools/call id=14 alvo=reservar_sala traceparent=00-96e01e7d33ac65314903b35ce36988ea-2cf9c2745e43d994-01

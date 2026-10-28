@@ -97,7 +97,11 @@ Cada request MCP leva no `_meta` `protocolVersion`, `clientInfo`, `clientCapabil
 
 ## Saída do validador
 
-Última execução, com os dois processos recém-iniciados (código de saída 0):
+Última execução, com os dois processos recém-iniciados (código de saída 0). Os logs brutos dessa execução estão em `evidencias/`:
+
+- `evidencias/validador.txt`: a saída do validador, reproduzida abaixo;
+- `evidencias/servidor-mcp.log`: o stderr do servidor MCP, onde o trace-id `ab812abadb32ad0e1156658683ffb537` aparece nos requests do agente. O `tools/list` (id 1) e o `resources/read` (id 2) vêm antes do primeiro `tools/call`, e a reserva pausada no id 4 é retomada com o id 5;
+- `evidencias/agente.log`: o stderr do agente, com cada `SendMessage`/`GetTask` recebido e os requests MCP que ele gerou.
 
 ```
 trace-id desta execucao: ab812abadb32ad0e1156658683ffb537
